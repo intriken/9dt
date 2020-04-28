@@ -111,6 +111,8 @@ df_clean_names.createOrReplaceTempView("df_clean_names");
 
 spark.sql("drop table if exists users");
 
+//creating table
+//TODO build out permant table structure and change to insert overwrite so that bad data does not remove existing data
 println("Writing table users ... starting");
 spark.sql("""create table users STORED AS ORC tblproperties ("orc.compress" = "SNAPPY") as select * from df_clean_names""");
 println("Writing table users ... completed");
