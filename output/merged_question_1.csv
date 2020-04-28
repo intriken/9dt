@@ -1,0 +1,5 @@
+first_game_move,games_count,games_first_player_win_count,games_first_player_lose_count,games_first_player_draw_count,games_total,precent_games_first_player_wins,precent_games_second_player_wins,precent_games_draw
+1,2460,776,499,1185,10000,0.0776,0.0499,0.1185
+2,2485,656,675,1154,10000,0.0656,0.0675,0.1154
+3,2488,649,710,1129,10000,0.0649,0.071,0.1129
+4,2567,794,537,1236,10000,0.0794,0.0537,0.1236
