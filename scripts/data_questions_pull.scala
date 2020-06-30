@@ -12,6 +12,8 @@ import org.apache.spark.sql.types._
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs._
 import org.apache.spark.sql.expressions._
+import java.nio.file._
+import org.apache.hadoop.fs.Path;
 
 //merge csv into single output
 def merge(srcPath: String, dstPath: String): Unit =  {
